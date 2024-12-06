@@ -28,13 +28,13 @@ sudo firewall-cmd --reload
 
 
 echo "**Adding mods to NodeRed**"
-sudo npm install -g -y node-red-contrib-oracledb-mod
+npm install -g -y node-red-contrib-oracledb-mod
 
 
 
 echo "*** installing instant client**"
 
-sudo npm install -g -y oracledb
+npm install -g -y oracledb
 
 
 
@@ -42,7 +42,7 @@ sudo npm install -g -y oracledb
 
 echo "*** create the service ***"
 
-sudo npm install -g pm2
+npm install -g pm2
 
 sleep 15
 
